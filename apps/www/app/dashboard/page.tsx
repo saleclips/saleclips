@@ -1,6 +1,8 @@
 import { redirect } from "next/navigation"
 import { createClient } from "@/utils/supabase/server"
 
+import { Navbar } from "@/app/dashboard/navbar"
+
 export default async function Home() {
   const supabase = createClient()
 
@@ -9,11 +11,9 @@ export default async function Home() {
     redirect("/login")
   }
 
-  console.log(data)
-
   return (
-    <main className="flex min-h-screen flex-col p-4 justify-center items-center">
-      <h1 className="font-semibold text-4xl">Dashboard</h1>
+    <main className="flex h-screen flex-col">
+      <Navbar />
     </main>
   )
 }
