@@ -10,13 +10,19 @@
     "tailwindcss": "^3.4.13"
   },
   "exports": {
+    "./button": "./src/components/button.tsx",
+    "./dropdown-menu": "./src/components/dropdown-menu.tsx",
     "./globals.css": "./src/globals.css",
     "./utils": "./src/utils/index.ts",
     "./postcss": "./postcss.config.js",
     "./tailwind.config": "./tailwind.config.ts"
   },
   "dependencies": {
+    "@radix-ui/react-dropdown-menu": "^2.1.2",
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "lucide-react": "^0.454.0",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7"
   }
