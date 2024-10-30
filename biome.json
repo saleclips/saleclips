@@ -4,7 +4,7 @@
     "enabled": true
   },
   "linter": {
-    "ignore": ["node_modules", ".next", "packages/ui"],
+    "ignore": ["node_modules", ".next", "build", "packages/ui", ".trigger"],
     "enabled": true,
     "rules": {
       "recommended": true,
@@ -17,7 +17,7 @@
     }
   },
   "formatter": {
-    "ignore": ["node_modules", ".next"],
+    "ignore": ["node_modules", ".next", "build", ".trigger"],
     "enabled": true,
     "indentStyle": "space"
   },
