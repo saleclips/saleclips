@@ -1,0 +1,14 @@
+{
+  "name": "@saleclips/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "supabase start",
+    "login": "supabase login"
+  },
+  "dependencies": {
+    "supabase": "^1.207.9"
+  },
+  "devDependencies": {},
+  "packageManager": "yarn@1.22.22"
+}

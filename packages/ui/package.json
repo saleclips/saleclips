@@ -1,24 +1,23 @@
 {
-  "name": "@repo/ui",
-  "version": "0.0.0",
+  "name": "@saleclips/ui",
+  "version": "1.0.0",
   "private": true,
-  "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
-  },
-  "scripts": {
-    "generate:component": "turbo gen react-component"
-  },
+  "files": ["tailwind.config.ts", "postcss.config.js", "globals.css"],
   "devDependencies": {
-    "@repo/typescript-config": "*",
-    "@turbo/gen": "^1.12.4",
-    "@types/node": "^20.11.24",
-    "@types/react": "^18.2.61",
-    "@types/react-dom": "^18.2.19",
-    "typescript": "^5.3.3"
+    "@saleclips/tsconfig": "*",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "exports": {
+    "./globals.css": "./src/globals.css",
+    "./utils": "./src/utils/index.ts",
+    "./postcss": "./postcss.config.js",
+    "./tailwind.config": "./tailwind.config.ts"
   },
   "dependencies": {
-    "react": "^18.2.0"
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "name": "@saleclips/tsconfig",
+  "private": true,
+  "version": "1.0.0",
+  "files": ["base.json", "next.json", "react-library.json"]
+}
