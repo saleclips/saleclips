@@ -1,0 +1,32 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "9a8104ec350357e2e3f5f3043c24eaa3"
+name = "SaleClips"
+handle = "saleclips"
+application_url = "https://organization-plus-significant-lecture.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://organization-plus-significant-lecture.trycloudflare.com/auth/callback",
+  "https://organization-plus-significant-lecture.trycloudflare.com/auth/shopify/callback",
+  "https://organization-plus-significant-lecture.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-10"
+
+  [[webhooks.subscriptions]]
+  topics = [ "app/uninstalled" ]
+  uri = "/webhooks/app/uninstalled"
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "saleclips-test-store.myshopify.com"
+automatically_update_urls_on_dev = true

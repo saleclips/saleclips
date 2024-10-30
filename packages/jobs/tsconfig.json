@@ -1,8 +1,5 @@
 {
   "extends": "@saleclips/tsconfig/base.json",
-  "include": [
-    "src",
-    "trigger.config.ts"
-  ],
+  "include": ["src", "trigger.config.ts"],
   "exclude": ["node_modules"]
 }
