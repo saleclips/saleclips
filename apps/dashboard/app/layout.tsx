@@ -5,6 +5,7 @@ import { GeistSans } from "geist/font/sans"
 
 import "@saleclips/ui/globals.css"
 import "@/styles/globals.css"
+import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@saleclips/ui/utils"
 
 export const metadata: Metadata = {
@@ -26,7 +27,14 @@ export default function RootLayout({
           GeistSans.variable
         )}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )

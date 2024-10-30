@@ -8,7 +8,7 @@
     "format": "biome format --write .",
     "lint": "biome lint --write ."
   },
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": ["apps/*", "packages/*", "tooling/*"],
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "turbo": "^2.2.3"
