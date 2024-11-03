@@ -3,7 +3,7 @@
 client_id = "9a8104ec350357e2e3f5f3043c24eaa3"
 name = "SaleClips"
 handle = "saleclips"
-application_url = "https://organization-plus-significant-lecture.trycloudflare.com"
+application_url = "https://cet-cbs-organised-viewer.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -12,9 +12,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://organization-plus-significant-lecture.trycloudflare.com/auth/callback",
-  "https://organization-plus-significant-lecture.trycloudflare.com/auth/shopify/callback",
-  "https://organization-plus-significant-lecture.trycloudflare.com/api/auth/callback"
+  "https://cet-cbs-organised-viewer.trycloudflare.com/auth/callback",
+  "https://cet-cbs-organised-viewer.trycloudflare.com/auth/shopify/callback",
+  "https://cet-cbs-organised-viewer.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

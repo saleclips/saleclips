@@ -2669,6 +2669,7 @@
     "@shopify/polaris" "^12.0.0"
     "@shopify/shopify-app-remix" "^3.4.0"
     "@shopify/shopify-app-session-storage-prisma" "^5.1.5"
+    "@trigger.dev/sdk" ""
     isbot "^5.1.0"
     prisma "^5.11.0"
     react "^18.2.0"
@@ -2911,7 +2912,7 @@
     zod-error "1.5.0"
     zod-validation-error "^1.5.0"
 
-"@trigger.dev/sdk@^3.1.0":
+"@trigger.dev/sdk@^3.1.0", "@trigger.dev/sdk@^3.1.0":
   version "3.1.0"
   resolved "https://registry.npmjs.org/@trigger.dev/sdk/-/sdk-3.1.0.tgz"
   integrity sha512-GxLw2aWa5Dk5wb9ZboE2l7k1iYEbnKUyfEZ4B96/B+npdYTR/BAZddMlOzNTr5YvAvgj4Bpf7aDcNrMjqAkWUA==
